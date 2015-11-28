@@ -79,12 +79,6 @@ def main():
     while(1):
         
         key=p.split()
-
-        line=0
-        sort=['']*len(s)
-        bit1=[0]*len(s)
-        bit2=[0]*len(s)
-        bit3=[0]*len(s)
         for i in range(0,len(s)):
             x=search(s[i],key[0])
             y=search(s[i],key[1])
